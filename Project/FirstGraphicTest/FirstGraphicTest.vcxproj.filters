@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{ccfc14db-30ab-41d4-bbf9-3c7fa9ee9899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{d5275c60-f0bb-4a14-a292-b5c2928b2d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{f68e5fd2-f929-4bbd-b1eb-851a53981f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{48c0250e-ab40-4fcf-b578-3c1abd00bce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\fxgltf">
+      <UniqueIdentifier>{c14a9daa-7040-4773-b921-8a19645beb99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Helper.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\VertexBuffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\UniformBuffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RenderObject.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CommandBuffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Texture.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GraphicSystem.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GltfLoader.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Model.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TextureManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Light.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LightManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileReader.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="External\fxgltf\gltf.h">
+      <Filter>External\fxgltf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VertexBuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UniformBuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CommandBuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Light.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LightManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\shader.vert">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\shader.frag">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
